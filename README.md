@@ -23,9 +23,9 @@ In this project  a dataset with music of different styles such us jazz, classic 
 * ├── data_documentation.pdf
 #### analysis_and_training
 * ├── 1_data_preprocessing
-* ├── 2_ANN
-* ├── 3_CNN
-* ├── 4_RNN
+* ├── 2_Music_Genre_Classification_with_ANN.ipynb
+* ├── 3_Music_Genre_Classification_with_CNN.ipynb
+* ├── 4_Music_Genre_Classification_with_RNN.ipynb
 * ├── helpers.py
 * ├── models_config.py
 #### figures
@@ -34,6 +34,7 @@ In this project  a dataset with music of different styles such us jazz, classic 
 * ├── contains trained models
 #### images
 * ├── contains images used in this images
+
 
 ##### environment
 ##### requirements.txt
