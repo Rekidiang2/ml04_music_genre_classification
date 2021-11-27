@@ -1,4 +1,4 @@
-# Diabetes Prediction
+# Music Genre Classification
 
 <img src="./images/cover.png" width="1000" alt="photo cover" />
 
