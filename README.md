@@ -3,7 +3,7 @@
 <img src="./images/cover.png" width="1000" alt="photo cover" />
 
 
-In healthcare field diagnose a problem early offer more chance for traitement and guerison in this project we apply machine learning techniques to predict whether a patient will develop diabetes within the next five years. Early detection and diagnosis of diabetes is that the early stages of diabetes are often non-symptomatic. People who are on the path to diabetes (also known as prediabetes) often do not know that they have diabetes until it is too late.
+In this project  a dataset with music of different styles such us jazz, classic ... 
 
 ## Contents
 
@@ -22,11 +22,12 @@ In healthcare field diagnose a problem early offer more chance for traitement an
 * ├── scaled_data.csv
 * ├── data_documentation.pdf
 #### analysis_and_training
-* ├── py_files
 * ├── 1_data_preprocessing
-* ├── 2_ML_model
-* ├── 3_DL_model
+* ├── 2_ANN
+* ├── 3_CNN
+* ├── 4_RNN
 * ├── helpers.py
+* ├── models_config.py
 #### figures
 * ├── contains graph and figures
 #### models
@@ -57,50 +58,50 @@ In healthcare field diagnose a problem early offer more chance for traitement an
 
 ### 3.1. CLONE PROJECT DIRECTORY
 
-+ $ git clonehttps://github.com/RekidiangData-S/p01ml_diabetes_prediction.git
-+ $ cd p01ml_diabetes_prediction
++ $ git clonehttps://github.com/Rekidiang2/au01_music_genre_classification.git
++ $ cd au01_music_genre_classification
 
 ### 3.2. CREATE & ACTIVATE VIRTUAL ENVIRONMENT
 
 #### 3.2.1. WITH PIP and VENV
 
 ##### (Windows) 
-+ $ python -m venv p01ml_venv 
++ $ python -m venv au01_venv 
 + $ p01ml_venv\Scripts\activate (<= Activate virtual Environment)
 + $ deactivate (<= Deactivate virtual Environment)
 + $ pip install -r requirements.txt
 + Set  VIRTUAL ENVIRONMENT as KERNEL : 
-  +  $ python -m ipykernel install --user --name p01ml_venv --display-name "p01ml_kernel"
+  +  $ python -m ipykernel install --user --name au01_venv --display-name "au01_kernel"
 + $ jupyter notebook
++ Go to Kernel -> Change kernel -> au01_kernel
 
 ##### (MasOS || LINUX)
 + $ python3 -m venv p01ml_venv 
-+ $ source p01ml_venv/bin/activate (<= Activate virtual Environment)  
++ $ source au01_venv/bin/activate (<= Activate virtual Environment)  
 + $ deactivate (<= Deactivate virtual Environment)
 + $ pip install -r requirements.txt
 + Set  VIRTUAL ENVIRONMENT as KERNEL : 
-  +  $ python -m ipykernel install --user --name p01ml_venv --display-name "p01ml_kernel"
+  +  $ python -m ipykernel install --user --name au01_venv --display-name "au01_kernel"
 + $ jupyter notebook
++ Go to Kernel -> Change kernel -> au01_kernel
 
 
 #### 3.2.2. WITH CONDA
 
 + Verify if you have conda installed ($conda --version) if not go to [anconda](https://www.anaconda.com/products/individual) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) to download and install it
 
-+ $ conda create -n p01ml_venv python=3.7
-+ $ conda activate p01ml_venv (<= Activate virtual Environment)
++ $ conda create -n au01_venv python=3.7
++ $ conda activate au01_venv (<= Activate virtual Environment)
 + $ conda deactivate  (<= Deactivate virtual Environment)
 + Set  VIRTUAL ENVIRONMENT as KERNEL : 
-  +  $ python -m ipykernel install --user --name p01ml_venv --display-name "p01ml_kernel"
+  +  $ python -m ipykernel install --user --name au01_venv --display-name "au01_kernel"
 + $ jupyter notebook
-+ Go to Kernel -> Change kernel -> p01ml_kernel
-+ $ jupyter kernelspec list (<= list all ipykernel in your system)
-+ $ jupyter kernelspec uninstall p01ml_venv (<= Delete the ipykernel in your system)
++ Go to Kernel -> Change kernel -> au01_kernel
 
 
 #### Manage kernel
 + $ jupyter kernelspec list (<= list all ipykernel in your system)
-+ $ jupyter kernelspec uninstall p01ml_venv (<= Delete the ipykernel in your system)
++ $ jupyter kernelspec uninstall au01_kernel (<= Delete the ipykernel in your system)
 
 ## 4. Deployment (Real world Use)
 
