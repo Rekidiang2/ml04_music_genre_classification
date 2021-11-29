@@ -2,7 +2,6 @@
 
 <img src="./images/cover.png" width="1000" alt="photo cover" />
 
-
 In this project  a dataset with music of different styles such us jazz, classic ... 
 
 ## Contents
@@ -117,7 +116,7 @@ In this project  a dataset with music of different styles such us jazz, classic 
 ## 6. About Me
 ___
 
-### I'm a data scientist, software Engineer. data and technology passionate person, Artificial Intelligence enthusiast 
+### I'm Data Analyst, Data Scientist and Web Developer. Data and technology passionate person, Artificial Intelligence enthusiast. 
 
 > My Website [Click Here](https://rekidiangdata-s.github.io/kiesediangebeni/)
 
